@@ -10,8 +10,8 @@ public class DiceThrower : MonoBehaviour
 {
     public Dice dicePrefab;
     public int amountOfDice = 3;
-    public float throwForce = 5f;
-    public float rollForce = 10f;
+    public float throwForce = 10f;
+    public float rollForce = 20f;
 
     public Button rollDiceButton;
     public static UnityAction<Dictionary<int, int>> diceRolled;
